@@ -444,7 +444,7 @@ export class DDPDriver extends EventEmitter implements ISocket, IDriver {
       ...config,
       ...moreConfigs,
       host: host.replace(/(^\w+:|^)\/\//, ''),
-      timeout: 20000
+      timeout: 3000
 			// reopen: number
 			// ping: number
 			// close: number
